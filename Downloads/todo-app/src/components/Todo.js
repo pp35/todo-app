@@ -57,11 +57,11 @@ function Todos() {
         localStorage.setItem("todos", JSON.stringify(todos))
     }
     // delete all to do 
-    const deleteAll = () => {
-        setTodosList([])
-        // save todos in local storage
-        localStorage.setItem("todos", JSON.stringify([]))
-    }
+    // const deleteAll = () => {
+    //     setTodosList([])
+    //     // save todos in local storage
+    //     localStorage.setItem("todos", JSON.stringify([]))
+    // }
     // mark to do as done or undone
     const handleTodoDone = (doneTodo) => {
         let todos = [...todosList];

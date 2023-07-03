@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 function FunctionCounter(){
     let [counter,setCounter]=React.useState(0)

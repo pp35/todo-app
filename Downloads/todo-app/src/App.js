@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Todos from "./components/Todo";
-import ClassCounter from './components/ClassCounter';
-import FunctionCounter from './components/FunctionCounter';
+//import ClassCounter from './components/ClassCounter';
+//import FunctionCounter from './components/FunctionCounter';
 class App extends Component {
 
   render() {
