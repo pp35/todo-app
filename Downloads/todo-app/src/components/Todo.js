@@ -192,12 +192,12 @@ function Todos() {
                                         data-bs-dismiss='modal'>
                                         Close
                                     </button>
-                                    <button
-                                        type='submit'
-                                        className='btn btn-primary'
-                                        data-bs-dismiss='modal'>
-                                        Update
-                                    </button>
+                 <button
+                    type='submit'
+                    className='btn btn-primary'
+                     data-bs-dismiss='modal'>
+                         Update
+                    </button>
                                 </div>
                             </form>
                         </div>
